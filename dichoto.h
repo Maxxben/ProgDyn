@@ -5,7 +5,6 @@
 #ifndef PROGDYN_DICHOTO_H
 #define PROGDYN_DICHOTO_H
 
-int find_by_dichotomy();
-
+void find_by_dichotomy(int array[], int size_t, int value);
 
 #endif //PROGDYN_DICHOTO_H

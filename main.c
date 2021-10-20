@@ -3,36 +3,33 @@
 #include <time.h>
 #include "dichoto.h"
 
-#define MAX 100
-#define SIZE 11
 
-int valeur(char *array){
-
-    srand(time(NULL));
-
-    for (int i = 0; i < SIZE; i++){
-        array[i] = rand()%MAX;
-        //printf("%d ", array[i]);
+int *getSortedTab(int size_t)
+{
+    int *tab = (int*) malloc(sizeof(int)*size_t);
+    for (int i=1; i<=size_t; i++){
+        tab[i] = i;
+        printf("%d ",tab[i]);
     }
+    return tab;
 }
+
+//void find_by_dichotomy(int array[100], int size_t, int value){
 
 int main() {
 
-    find_by_dichotomy();
+    int size_t = 10;
+    int value = 4;
 
-    int val;
-    char array[100];
-    valeur(array);
+    //printf("Choisir un nombre");
+    //scanf("%d",&value);
 
-    printf("Choisir un nombre a rechercher : ");
-    scanf("%d", val);
+    int *tab = getSortedTab(size_t);
+        //printf("\n%d", tab[5]);
 
-    if (array[SIZE/2] > val){
+   find_by_dichotomy(tab,size_t,value);
 
-    }else{
 
-    }
 
-    printf("\n%d",array[SIZE/2]);
 
 }
