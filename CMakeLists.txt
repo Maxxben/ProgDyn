@@ -3,4 +3,4 @@ project(ProgDyn)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ProgDyn main.cpp)
+add_executable(ProgDyn dichoto.c dichoto.h main.c)
