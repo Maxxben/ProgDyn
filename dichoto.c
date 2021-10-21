@@ -5,31 +5,37 @@
 //
 
 int gretter(int array[], int size_t) {
-    for (int i = size_t / 2; i < size_t; i++) {
-        int j = 1;
-        array[i] = array[j];
-        printf("%d ", array[i + 1]);
+    int j=0;
+    for (int i = size_t/2+1; i<size_t; i++) {
+        array[j] = array[i];
+        printf("%d ", array[i]);
         j++;
     }
+    return 0;
 }
+
 
 int find_by_dichotomy(int array[], int size_t, int value) {
 
-    int find=0, i;
+    int i;
     printf("\n");
 
-    for (i=0;i<6;i++){
-        if (value == array[size_t/2]) {
-            printf("Valeur trouvée !");
-            i=10;
-        }else {
-            if (value > array[size_t / 2]) {
+    for (i=0;i<5;i++){
+        if (value == size_t/2) {
+                printf("Valeur trouvée !");
+                i = 5;
+        }else{
+            if (value > size_t/2) {
+                    printf("Val %d,%d\n",array[size_t],array[size_t/2]);
                 gretter(array, size_t);
-                size_t=size_t/2;
-            } else {
-                size_t=size_t/2;
+                size_t = size_t/2;
+                //printf("= %d",size_t);
+
+            }else{
+                size_t = size_t/2;
             }
         }
         printf("\n");
     }
+    return 0;
 }

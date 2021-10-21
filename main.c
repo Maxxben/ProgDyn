@@ -18,18 +18,13 @@ int *getSortedTab(int size_t)
 
 int main() {
 
-    int size_t = 11;
-    int value = 5;
+    int size_t = 31;
+    int value = 12;
 
-    //printf("Choisir un nombre");
-    //scanf("%d",&value);
-
-    int a = getSortedTab(size_t);
+    int *tab = getSortedTab(size_t);
         //printf("\n%d", tab[5]);
 
-   find_by_dichotomy(a,size_t,value);
-
-
+   find_by_dichotomy(tab,size_t,value);
 
 
 }
