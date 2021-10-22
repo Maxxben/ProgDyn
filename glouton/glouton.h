@@ -14,4 +14,6 @@ typedef struct {
 float remplissage(glout tab[],int array_size,int volMax);
 void tri_selection(glout tab[], int size);
 
+void test_glouton();
+
 #endif //PROGDYN_GLOUTON_H

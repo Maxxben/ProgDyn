@@ -7,18 +7,14 @@
 //
 
 /**
- * Algorithme glouton
+ * Selection sort array
  * @param tab The array of values
- * @param size_t The size of the array
- * @param volumeMax The value to find
- * @return The value in the bag
+ * @param size The size of the array
  */
-
 void tri_selection(glout tab[], int size){
     //initialisation
     int i=0, j=0;
     float tmp1=0,tmp2=0;
-
 
     //Fonction de tri selection
     for(i=0;i<size-1;i++){ //Boucle parcours le tableau
@@ -34,6 +30,13 @@ void tri_selection(glout tab[], int size){
     }
 }
 
+/**
+ * Greedy algorithm
+ * @param tab The array of values
+ * @param size_t The size of the array
+ * @param volumeMax The value to find
+ * @return The value in the bag
+ */
 float remplissage(glout tab[],int size,int volumeSac){
     float result = 0;
     float volumeSac2 = volumeSac;

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "dichoto.h"
 //
 // Created by maxxben on 20/10/2021.
