@@ -57,7 +57,9 @@ void test_pgcb() {
 
     //srand(time(NULL));
 
-    int matrice[100] = makeMatrice(matrice);
+    int matrice[100];
+
+    makeMatrice(matrice);
     //void printMatrice(*matrice);
 
 

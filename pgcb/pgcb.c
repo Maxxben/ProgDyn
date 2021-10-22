@@ -8,7 +8,7 @@
 
 int makeMatrice(int matrice[]){
 
-    int *matrice = malloc(sizeof(int)*100);
+    matrice = malloc(sizeof(int)*100);
     for (int i = 0; i < 5; i++) {
         for (int i = 0; i < 5; i++) {
             matrice[i] = rand() % 2;
@@ -16,7 +16,7 @@ int makeMatrice(int matrice[]){
                 printf("*   ");
                 //printf("%d ", matrice[i][j]);
             } else {
-                printf("    ");
+                printf("_   ");
             }
         }
         printf("\n");
