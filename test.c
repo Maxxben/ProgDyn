@@ -55,32 +55,14 @@ void test_glouton(){
 
 void test_pgcb() {
 
-    int matrice[5][5];
     //srand(time(NULL));
 
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
-                matrice[i][j] = rand()%2;
-                if(matrice[i][j] == 0){
-                    printf("*   ");
-                    //printf("%d ", matrice[i][j]);
-                }else{
-                    printf("    ");
-                }
-            }
-            printf("\n");
-        }
+    int matrice[100] = makeMatrice(matrice);
+    //void printMatrice(*matrice);
 
 
-    for (int i = 0; i < 5; i++) {
-        for (int j = 0; j < 5; j++) {
-            if(matrice[i][j] == 0){
-                printf("%d  ",matrice[i][j]);
-                break;
-            }
 
-        }
-    }
+
 
 
 
