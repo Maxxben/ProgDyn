@@ -4,7 +4,7 @@
 #include "glouton/glouton.h"
 #include "pgcb/pgcb.h"
 
-int main() {
+int main(){
 
     //DICHOTOMIE
         //test_dichoto();

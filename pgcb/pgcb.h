@@ -6,7 +6,9 @@
 #define PROGDYN_PGCB_H
 
 void test_pgcb();
-int makeMatrice(int matrice[]);
-void printMatrice();
+void printMatrice(int matrice[]);
+int *makeMatrice();
+
+
 
 #endif //PROGDYN_PGCB_H
