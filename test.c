@@ -60,13 +60,7 @@ void test_pgcb() {
     int matrice[100];
 
     printMatrice(makeMatrice());
-
-
-
-
-
-
-
+    findMatrice(makeMatrice());
 
 }
 

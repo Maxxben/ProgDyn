@@ -50,3 +50,21 @@ void printMatrice(int *matrice){
     }
 
 }
+
+void findMatrice(int *matrice) {
+
+    int x = 0;
+
+    for (int i = 0; i <5 ; ++i) {
+
+        if (matrice[x] == 0)
+            PGCB(x, y) = 0
+
+        if((x,y) == 1 && et dans la première ligne en haut || la première colonne à gauche)
+            PGCB(x,y)=1
+
+        if((x,y) == 1 && ni dans la première ligne en haut ni dans la première colonne à gauche)
+            PGCB(x, y) = 1 + min{ PGCB(x - 1, y - 1), PGCB(x, y - 1), PGCB(x - 1, y) }
+
+    }
+}

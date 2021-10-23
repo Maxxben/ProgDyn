@@ -7,7 +7,9 @@
 
 void test_pgcb();
 void printMatrice(int matrice[]);
+void findMatrice(int matrice[]);
 int *makeMatrice();
+
 
 
 
