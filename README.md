@@ -55,8 +55,8 @@ Placez vous dans le projet et créer un
 
 - Pour Windows
 
-      mingw32-make documentation
+        mingw32-make documentation
 
 - Pour Linux
 
-    make documentation
+        make documentation
