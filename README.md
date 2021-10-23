@@ -51,7 +51,7 @@ Il ne reste plus qu’à exécuter le programme.
 
 # Documentation
 
-Placez vous dans le projet et créer un
+Placez vous dans le dossier build et tapez :
 
 - Pour Windows
 
