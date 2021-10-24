@@ -23,7 +23,6 @@ void test_dichoto(){
 
     //AFFICHAGE
         printf("Valeur recherchée : %d\n", val);
-        printf("-----------------------\n");
 }
 
 void test_glouton(){
@@ -39,11 +38,7 @@ void test_glouton(){
 
     printf("\n");
 
-    tri_selection(objets,3); //Tri du tableu
-
-    //for (int i = 0; i < 3; ++i) {
-    //       printf("%d\n",objets[i].valeur/objets[i].volume);
-    //  }
+    tri_selection(objets,3); //Tri du tableau
 
     //AFFICHAGE
         printf("La valeur du sac est : %f\n", remplissage(objets,2,10));
@@ -59,8 +54,8 @@ void test_pgcb() {
 
     int matrice[100];
 
-    printMatrice(makeMatrice());
-    findMatrice(makeMatrice());
+    printMatrice(makeMatrice()); //Creer et affiche la matrice
+    //findMatrice(makeMatrice()); //Affiche le plus grand carré libre
 
 }
 

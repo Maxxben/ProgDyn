@@ -23,7 +23,6 @@ int find_by_dichotomy(int array[], int size_t, int value ){
     while (min <= max) {
         i = (min + max)/2;
         if (array[i] == value) {
-            printf("\n-----------------------\n");
             printf("Trouvé en %d coups\n",tmp);
             return i;
         }
